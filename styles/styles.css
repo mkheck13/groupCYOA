@@ -1,0 +1,36 @@
+#page9back{
+    background: url(../assets/1.png);
+    background-repeat: no-repeat ;
+    background-position: center;
+    background-size:100% 100% ;
+    background-attachment: fixed;
+
+}
+.page9headtext{
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+
+}
+
+.page9bodytext{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.page9carddiv{
+    display: flex;
+    justify-content:flex-start;
+
+}
+.page9cards{
+    width: 25%;
+    height: auto;
+    
+}
+.page9image{
+    height: 500px;
+    width: 500px;
+
+}
