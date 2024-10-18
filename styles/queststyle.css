@@ -24,10 +24,11 @@ html {
 body {
 
    color: var(--text);  
+   margin-left: 10px;
   font-size: 1.15rem;
   line-height: 1.5;
   display: grid;
-  grid-template-columns: 1fr, minmax(1920px), 1fr;
+  grid-template-columns: 1fr, minmax(1920), 1fr;
   justify-content: center;
 
 }
@@ -61,9 +62,8 @@ section {
   margin: 3rem 0;
   text-align: center;
   background-color: white;
-  width: 1920px;
-  height: 1020px;
-
+  /* width: 1920px;
+  height: 1020px; */
 
 }
 .panel{
@@ -211,7 +211,7 @@ a:visited {
   position: relative;
   text-align: center;
   left:800px;
-  top: 635px;
+  top: 580px;
   width: 300px;
   height: 55px;
   font-size: 40px;
@@ -231,6 +231,7 @@ a:visited {
   cursor: pointer;
 } 
 
+/* rules page text*/
 .rules-text{
   display:flex;
   position: relative;
@@ -244,6 +245,71 @@ a:visited {
   align-items: center;   
   /* border: 1px solid var(--border);   */
 }
+
+/*vitory page text and positioning*/
+.victory-text{
+  display:flex;
+  position: relative;
+  left: 20px;
+  top: 700px;
+  width: 1880px;
+  height: 370px;
+  font-size: 30px;
+  color: var(--text-light);
+  justify-content: center; 
+  align-items: center;   
+  /* border: 1px solid var(--border);   */
+}
+
+.playAgain {
+  display:flex;
+  position: relative;
+  text-align: center;
+  left:170px;
+  top: 360px;
+  width: 300px;
+  height: 55px;
+  font-size: 40px;
+  color: var(--text-light);
+  font-weight: bold;
+  justify-content: center; 
+  align-items: center;  
+  /* border: 1px solid var(--border);   */
+}
+
+.playAgain a,
+a:visited {
+  color: var(--text-light);
+}
+.playAgain a:hover {
+  color: var(--accent);
+  cursor: pointer;
+} 
+/*return to main menu*/
+.returnMainMenu {
+  display:flex;
+  position: relative;
+  text-align: center;
+  left:1450px;
+  top: 310px;
+  width: 300px;
+  height: 55px;
+  font-size: 40px;
+  color: var(--text-light);
+  font-weight: bold;
+  justify-content: center; 
+  align-items: center;  
+  /* border: 1px solid var(--border);   */
+}
+
+.returnMainMenu a,
+a:visited {
+  color: var(--text-light);
+}
+.returnMainMenu a:hover {
+  color: var(--accent);
+  cursor: pointer;
+} 
 
 footer {
   margin-top: 1rem;
