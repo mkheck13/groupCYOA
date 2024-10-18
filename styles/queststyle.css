@@ -214,3 +214,44 @@ a:visited {
   color: var(--accentblue);
   cursor: pointer;
 } 
+
+.letsPlay {
+  display:flex;
+  position: relative;
+  text-align: center;
+  left:800px;
+  top: 635px;
+  width: 300px;
+  height: 55px;
+  font-size: 40px;
+  color: var(--text-light);
+  font-weight: bold;
+  justify-content: center; 
+  align-items: center;  
+  /* border: 1px solid var(--border);   */
+}
+
+.letsPlay a,
+a:visited {
+  color: var(--text-light);
+  text-decoration: none;
+}
+ a:hover {
+
+  color: var(--accent);
+  cursor: pointer;
+} 
+
+.rules-text{
+  display:flex;
+  position: relative;
+  left: 20px;
+  top: 600px;
+  width: 1880px;
+  height: 370px;
+  font-size: 30px;
+  color: var(--text-light);
+  justify-content: center; 
+  align-items: center;   
+  /* border: 1px solid var(--border);   */
+}
