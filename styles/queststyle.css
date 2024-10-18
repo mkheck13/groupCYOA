@@ -52,7 +52,7 @@ a:visited {
   color: var(--accent);
   text-decoration: none;
 }
- a:hover {
+a:hover {
 
   color: var(--accentblue);
   cursor: pointer;
