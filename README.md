@@ -10,7 +10,7 @@
 
 ### Peer Review:  
 
-**Name**: 
+**Name**: Thao Vang
 
-**Comments**: 
+**Comments**: The overall color scheme is very pleasant to look at. Textbox is clean making it very easy to read. Like the hover feature so the user knows which option they are choosing. Rules page is unfinished but I suggest letting people choose one of two options and let them know which color is the color for the one they are choosing. *Nitpick* but the “Play Again” button and “Main Menu” button probably shouldn’t highlight into the same color as the button so the person knows what they are going to click.
 
