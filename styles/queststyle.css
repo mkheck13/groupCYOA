@@ -109,7 +109,7 @@ section {
 }
 
 /*positioning of the text inside the card*/
-.leftCardText {
+.leftCardText  {
   display: flex;
   position: relative;
   right: 320px;
@@ -124,6 +124,7 @@ section {
   /* border: 1px solid var(--border); */
 
 }
+
 
 
 .rightCard {
@@ -171,7 +172,7 @@ section {
   /* border: 1px solid var(--border);    */
 }
 .playLink a,
-a:visited {
+.playLink a:visited {
   color: var(--text-light);
 
 }
@@ -197,11 +198,11 @@ a:visited {
 }
 
 .rulesLink a,
-a:visited {
+.rulesLink a:visited {
   color: var(--text-light);
   text-decoration: none;
 }
- a:hover {
+.rulesLink a:hover {
 
   color: var(--accentblue);
   cursor: pointer;
@@ -224,7 +225,7 @@ a:visited {
 }
 
 .letsPlay a,
-a:visited {
+.letsPlay a:visited {
   color: var(--text-light);
 }
 .letsPlay a:hover {
@@ -279,7 +280,7 @@ a:visited {
 }
 
 .playAgain a,
-a:visited {
+.playAgain a:visited {
   color: var(--text-light);
 }
 .playAgain a:hover {
@@ -304,7 +305,7 @@ a:visited {
 }
 
 .returnMainMenu a,
-a:visited {
+.returnMainMenu a:visited {
   color: var(--text-light);
 }
 .returnMainMenu a:hover {
