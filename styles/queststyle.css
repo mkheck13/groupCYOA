@@ -180,10 +180,9 @@ footer {
 .playLink a,
 a:visited {
   color: var(--text-light);
-  text-decoration: none;
-}
- a:hover {
 
+}
+.playLink a:hover {
   color: var(--accentblue);
   cursor: pointer;
 } 
@@ -234,10 +233,8 @@ a:visited {
 .letsPlay a,
 a:visited {
   color: var(--text-light);
-  text-decoration: none;
 }
- a:hover {
-
+.letsPlay a:hover {
   color: var(--accent);
   cursor: pointer;
 } 
