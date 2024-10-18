@@ -110,7 +110,7 @@ section {
 
 /*positioning of the text inside the card*/
 .leftCardText {
-  display:flex;
+  display: flex;
   position: relative;
   right: 320px;
   top: 85px;
@@ -152,8 +152,9 @@ section {
   /* border: 1px solid var(--border);  only for testing the alignment of the text*/
 }
 .navContainer{
-   /* display:flex; */
+   display:flex;
 }
+
 .playLink {
   display:flex;
   position: relative;
